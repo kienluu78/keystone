@@ -10,7 +10,7 @@ The pharmacist stays at the door. The record stays in the pharmacy. Glasses take
 ## What it is not
 - Not a public multi-tenant SaaS
 - Not regulated clinical decision support. It does not diagnose, prescribe, dispense, or treat
-- Not a live ScriptCheck, AMH, or MINFOS integration
+- Not a live ScriptCheck, AMH, or MINFOS integration. A mock ScriptCheck lookup and a 600 by 600 display card were shown on 5 October 2026. Barcode reading is not built
 - Not a hospital pharmacy system
 
 ## Legal
