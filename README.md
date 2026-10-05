@@ -5,12 +5,12 @@
 
 Public explanation page for Keystone: a community pharmacy application of [KeyGraph](https://kienluu78.github.io/keygraph/). Static HTML. No loader.
 
-The pharmacist stays at the door. The record stays in the pharmacy. Glasses take the script when the ring clicks. The local server is designed to process it. Hands stay with the patient.
+The pharmacist stays at the door. The record stays in the pharmacy. Glasses take the script and show the result on the display. A neural band gesture is the control. The local server is designed to process it. Hands stay with the patient.
 
 ## What it is not
 - Not a public multi-tenant SaaS
 - Not regulated clinical decision support. It does not diagnose, prescribe, dispense, or treat
-- Not a live ScriptCheck, AMH, or MINFOS integration. A mock ScriptCheck lookup and a 600 by 600 display card were shown on 5 October 2026. Barcode reading is not built
+- Not a live ScriptCheck, AMH, or MINFOS integration. A mock ScriptCheck lookup and a 600 by 600 display card were shown on 5 October 2026. The neural band is the designed control, and it was not part of that demo. Barcode reading is not built
 - Not a hospital pharmacy system
 
 ## Legal
