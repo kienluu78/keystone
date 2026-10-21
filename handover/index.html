@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keystone handover · The discharge bridge</title>
+<meta name="description" content="The discharge bridge. The pharmacist still decides.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#FAF8F5">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;1,400&family=Spectral:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#FAF8F5;color:#1B2A4A;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{overflow-x:clip}
+*{box-sizing:border-box}
+a{color:#0D6B6B}
+a:hover{color:#1B2A4A;text-decoration:underline}
+::selection{background:rgba(13,107,107,.16)}
+:focus-visible{outline:1.5px solid #0D6B6B;outline-offset:3px}
+h1,h2,h3,p,ol,ul,li{margin:0;padding:0}
+ol,ul{list-style:none}
+</style>
+</head>
+<body>
+<div style="background:#FAF8F5;color:#1B2A4A;font-family:Archivo,system-ui,sans-serif;min-height:100vh">
+<header data-screen-label="Hero" style="border-bottom:1px solid #D4CBB8;padding:clamp(64px,9vw,112px) clamp(24px,5.6vw,72px) clamp(56px,8vw,104px)">
+<div style="max-width:1240px;margin:0 auto">
+<p style="font:600 11px/1.7 Archivo,system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#A67C2D;margin-bottom:clamp(24px,3vw,38px);text-wrap:balance">Pathfinder application of KeyGraph · Adelaide</p>
+<h1 style="font:300 clamp(46px,6.4vw,88px)/.96 Spectral,Georgia,serif;letter-spacing:-.035em;text-wrap:balance">Keystone handover</h1>
+<div aria-hidden="true" style="height:1px;background:#D4CBB8;margin:clamp(36px,4.6vw,60px) 0 clamp(30px,3.6vw,46px)"></div>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:30px 72px">
+<div style="flex:1 1 calc((820px - 100%) * 999);min-width:0">
+<p style="font:300 clamp(26px,3.3vw,40px)/1.18 Spectral,Georgia,serif;letter-spacing:-.015em;text-wrap:balance">The discharge bridge.</p>
+<p style="font:italic 400 clamp(26px,3.3vw,40px)/1.18 Spectral,Georgia,serif;letter-spacing:-.015em;color:#0D6B6B;text-wrap:balance">The pharmacist still decides.</p>
+</div>
+<div style="flex:1 1 calc((820px - 100%) * 999);min-width:0">
+<p style="font:400 16.5px/1.72 Archivo,system-ui,sans-serif;color:#5C6578;max-width:46ch;text-wrap:pretty;margin-bottom:26px">This is the path from a hospital ward to a nursing home or a community pharmacy. It is not the community counter, and it is not a hospital dispensing system. The counter page stays the counter. This page is the short bridge after discharge.</p>
+<a href="https://kienluu78.github.io/keystone/" style="font:500 15px/1.5 Archivo,system-ui,sans-serif;letter-spacing:.01em;color:#0D6B6B;text-decoration:underline;text-decoration-color:#D4CBB8;text-decoration-thickness:1px;text-underline-offset:6px;transition:color .2s,text-decoration-color .2s">Keystone, the counter.<span aria-hidden="true" style="display:inline-block;margin-left:8px">↗</span></a>
+</div>
+</div>
+</div>
+</header>
+
+<section data-screen-label="01 The problem" style="border-bottom:1px solid #D4CBB8;padding:clamp(56px,8vw,96px) clamp(24px,5.6vw,72px)">
+<div style="max-width:1240px;margin:0 auto">
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:22px"><span style="font:600 11px/1 Archivo,system-ui,sans-serif;letter-spacing:.2em;color:#A67C2D">01</span><i aria-hidden="true" style="width:40px;height:1px;background:#D4CBB8"></i></div>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:26px 64px">
+<h2 style="flex:1 1 calc((860px - 100%) * 999);min-width:0;font:400 clamp(32px,3.6vw,46px)/1.08 Spectral,Georgia,serif;letter-spacing:-.02em;text-wrap:balance">The problem.</h2>
+<div style="flex:2 1 calc((860px - 100%) * 999);min-width:0;display:flex;flex-direction:column;gap:20px">
+<p style="font:400 clamp(21px,2.1vw,26px)/1.32 Spectral,Georgia,serif;letter-spacing:-.01em;max-width:40ch;text-wrap:pretty">The ward chart, the discharge chart, and the bag do not always say the same thing.</p>
+<p style="font:400 16.5px/1.72 Archivo,system-ui,sans-serif;color:#5C6578;max-width:54ch;text-wrap:pretty">A nursing home and a community pharmacy need to know what was ordered, what actually left, and whether a packed aid will be ready. Re-keying that by phone, while the patient is already in a taxi, is the tax.</p>
+<p style="font:400 16.5px/1.72 Archivo,system-ui,sans-serif;color:#1B2A4A;max-width:54ch;text-wrap:pretty">Keystone puts the mismatch in front of a pharmacist. It does not dispense, and it does not turn the chart into a prescription.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section data-screen-label="02 Three records" style="border-bottom:1px solid #D4CBB8;padding:clamp(56px,8vw,96px) clamp(24px,5.6vw,72px)">
+<div style="max-width:1240px;margin:0 auto">
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:22px"><span style="font:600 11px/1 Archivo,system-ui,sans-serif;letter-spacing:.2em;color:#A67C2D">02</span><i aria-hidden="true" style="width:40px;height:1px;background:#D4CBB8"></i></div>
+<h2 style="font:400 clamp(32px,3.6vw,46px)/1.08 Spectral,Georgia,serif;letter-spacing:-.02em;text-wrap:balance;margin-bottom:clamp(32px,4.4vw,52px)">Three records, kept apart.</h2>
+<div style="display:flex;flex-wrap:wrap;gap:24px">
+<div style="flex:1 1 calc((860px - 100%) * 999);min-width:0;padding:clamp(28px,2.8vw,34px) clamp(22px,2.6vw,32px) clamp(26px,2.6vw,30px);border:1px solid #D4CBB8;border-radius:8px;background:#FAF8F5">
+<h3 style="font:400 clamp(26px,2.4vw,30px)/1.12 Spectral,Georgia,serif;margin-bottom:14px">Orders</h3>
+<p style="font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">The discharge chart holds the orders for a short bridge, and the last dose given. It is not a prescription. Nothing is dispensed from it.</p>
+</div>
+<div style="flex:1 1 calc((860px - 100%) * 999);min-width:0;padding:clamp(28px,2.8vw,34px) clamp(22px,2.6vw,32px) clamp(26px,2.6vw,30px);border:1px solid #D4CBB8;border-radius:8px;background:#FAF8F5">
+<h3 style="font:400 clamp(26px,2.4vw,30px)/1.12 Spectral,Georgia,serif;margin-bottom:14px">Hospital supply</h3>
+<p style="font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Which items left, how many, and that they are original packs. A quantity is a numeral and words. If the words are missing, the share is blocked.</p>
+</div>
+<div style="flex:1 1 calc((860px - 100%) * 999);min-width:0;padding:clamp(28px,2.8vw,34px) clamp(22px,2.6vw,32px) clamp(26px,2.6vw,30px);border:1px solid #D4CBB8;border-radius:8px;background:#FAF8F5">
+<h3 style="font:400 clamp(26px,2.4vw,30px)/1.12 Spectral,Georgia,serif;margin-bottom:14px">Packed aid</h3>
+<p style="font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Whether the community pharmacy was told, whether its acceptance cut-off had passed, and whether delivery is expected.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section data-screen-label="03 The bridge" style="border-bottom:1px solid #D4CBB8;padding:clamp(56px,8vw,96px) clamp(24px,5.6vw,72px)">
+<div style="max-width:1240px;margin:0 auto">
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:22px"><span style="font:600 11px/1 Archivo,system-ui,sans-serif;letter-spacing:.2em;color:#A67C2D">03</span><i aria-hidden="true" style="width:40px;height:1px;background:#D4CBB8"></i></div>
+<h2 style="font:400 clamp(32px,3.6vw,46px)/1.08 Spectral,Georgia,serif;letter-spacing:-.02em;text-wrap:balance;margin-bottom:clamp(36px,4.6vw,56px)">What happens on the bridge.</h2>
+<ol style="max-width:1100px">
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#1B2A4A;border:1px solid #1B2A4A"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">01</span><span style="color:#1B2A4A">Pharmacist</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">Both charts are present.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">The ward chart and the discharge chart are read together. The discharge chart is the short bridge, not a script.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#FAF8F5;border:1px solid #1B2A4A"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">02</span><span style="color:#5C6578">Keystone surfaces</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">Last dose given.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Every order needs a last dose. A missing time is flagged. It is not guessed.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#FAF8F5;border:1px solid #1B2A4A"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">03</span><span style="color:#5C6578">Keystone surfaces</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">Supply, in numeral and words.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">What left the hospital, and how many. Missing words block the share. A mismatch between the numeral and the words is flagged, not repaired.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#FAF8F5;border:1px solid #5C6578"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">04</span><span style="color:#5C6578">Site rule</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">Cut-offs belong to the site.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Each site sets the hospital pharmacy cut-off and the time a community pharmacy will still accept a pack. The starting rule used here is 5:00 pm and 3:30 pm. A later skeleton is a site override, not a new product.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#FAF8F5;border:1px solid #1B2A4A"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">05</span><span style="color:#5C6578">Keystone surfaces</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">An order with no matching supply.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">The line is flagged. The brief can say the pharmacy declined. A person confirms the brief arrived, or the record shows it did not.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#1B2A4A;border:1px solid #1B2A4A"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">06</span><span style="color:#1B2A4A">Pharmacist decides</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">Schedule 8 is its own track.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">An S8 on the chart and not in the bag is flagged. A discharge after the site cut-off is flagged. The wording is that local policy and timing can stop it travelling. The brief does not say the law stopped it.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#FAF8F5;border:1px solid #1B2A4A"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">07</span><span style="color:#5C6578">Keystone surfaces</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">High-risk gaps only.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Missing supply is flagged for opioids, anticoagulants, levodopa, and insulin. No substitute is suggested.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#FAF8F5;border:1px solid #1B2A4A"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">08</span><span style="color:#5C6578">Keystone surfaces</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">A withheld medicine needs a reason.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">If the reason is missing, it is flagged. The reason is not invented.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:absolute;left:11.5px;top:8.5px;bottom:-8.5px;width:1px;background:#D4CBB8"></i><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#FAF8F5;border:1px solid #5C6578"></i></div>
+<div style="padding-bottom:clamp(34px,4.2vw,48px)">
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">09</span><span style="color:#5C6578">Site rule</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">How long the bridge is.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">One day when quick supply is assured. Otherwise three days. The chart has to say that quick supply is assured. If it does not, the longer bridge stands.</p>
+</div>
+</div>
+</li>
+
+<li style="display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:clamp(14px,2.2vw,28px)">
+<div aria-hidden="true" style="position:relative"><i style="position:relative;z-index:1;display:block;width:11px;height:11px;margin:3px auto 0;border-radius:50%;background:#1B2A4A;border:1px solid #1B2A4A"></i></div>
+<div>
+<p style="display:flex;flex-wrap:wrap;gap:4px 14px;font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px"><span style="color:#A67C2D">10</span><span style="color:#1B2A4A">Pharmacist decides</span></p>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 56px">
+<h3 style="flex:1 1 calc((760px - 100%) * 999);min-width:0;font:400 clamp(22px,2.1vw,26px)/1.18 Spectral,Georgia,serif;letter-spacing:-.01em;text-wrap:balance">The brief is read, then a person acts.</h3>
+<p style="flex:1.2 1 calc((760px - 100%) * 999);min-width:0;font:400 15.5px/1.68 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Keystone does not prescribe, dispense, or counsel in their place.</p>
+</div>
+</div>
+</li>
+
+</ol>
+</div>
+</section>
+
+<section data-screen-label="04 Local by design" style="border-bottom:1px solid #D4CBB8;padding:clamp(56px,8vw,96px) clamp(24px,5.6vw,72px)">
+<div style="max-width:1240px;margin:0 auto">
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:22px"><span style="font:600 11px/1 Archivo,system-ui,sans-serif;letter-spacing:.2em;color:#A67C2D">04</span><i aria-hidden="true" style="width:40px;height:1px;background:#D4CBB8"></i></div>
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:26px 64px">
+<h2 style="flex:1 1 calc((860px - 100%) * 999);min-width:0;font:400 clamp(32px,3.6vw,46px)/1.08 Spectral,Georgia,serif;letter-spacing:-.02em;text-wrap:balance">Local by design.</h2>
+<div style="flex:2 1 calc((860px - 100%) * 999);min-width:0;display:flex;flex-direction:column;gap:20px">
+<p style="font:400 clamp(21px,2.1vw,26px)/1.32 Spectral,Georgia,serif;letter-spacing:-.01em;max-width:40ch;text-wrap:pretty">The chart photo stays on the machine that holds the record.</p>
+<p style="font:400 16.5px/1.72 Archivo,system-ui,sans-serif;color:#5C6578;max-width:54ch;text-wrap:pretty">It is not placed on a public control panel. The current retention rule is seven years, then the photo is deleted.</p>
+<p style="font:400 16.5px/1.72 Archivo,system-ui,sans-serif;color:#5C6578;max-width:54ch;text-wrap:pretty">The model does not get to change the record. If a fact is not written there, the brief says it does not know. A correction is a new line. You can see what was written.</p>
+<p style="font:400 16.5px/1.72 Archivo,system-ui,sans-serif;color:#1B2A4A;max-width:54ch;text-wrap:pretty">Nothing on this page is a claim that local storage blocks a foreign law. The fence is simpler: the record stays where the pharmacists can open it.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section data-screen-label="05 What this is" style="border-bottom:1px solid #D4CBB8;background:#F3EEE6;padding:clamp(56px,8vw,96px) clamp(24px,5.6vw,72px)">
+<div style="max-width:1240px;margin:0 auto">
+<div style="display:flex;align-items:center;gap:14px;margin-bottom:22px"><span style="font:600 11px/1 Archivo,system-ui,sans-serif;letter-spacing:.2em;color:#A67C2D">05</span><i aria-hidden="true" style="width:40px;height:1px;background:#D4CBB8"></i></div>
+<h2 style="font:400 clamp(32px,3.6vw,46px)/1.08 Spectral,Georgia,serif;letter-spacing:-.02em;text-wrap:balance;margin-bottom:clamp(32px,4.4vw,52px)">What this is, and is not.</h2>
+<div style="display:flex;flex-wrap:wrap;gap:44px 56px">
+<div style="flex:1 1 calc((640px - 100%) * 999);min-width:0">
+<p style="font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#1B2A4A">It is</p>
+<ul style="margin-top:16px;border-top:1px solid #1B2A4A">
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#1B2A4A;text-wrap:pretty">A discharge bridge beside the Keystone counter, not a replacement for it.</li>
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#1B2A4A;text-wrap:pretty">Private research in Adelaide.</li>
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#1B2A4A;text-wrap:pretty">A sketch of flags a pharmacist can refuse.</li>
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#1B2A4A;text-wrap:pretty">A synthetic reconciliation, on paper, from a long-stay inpatient chart onto a drafted layout.</li>
+</ul>
+</div>
+<div style="flex:1 1 calc((640px - 100%) * 999);min-width:0">
+<p style="font:600 11px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#5C6578">It is not</p>
+<ul style="margin-top:16px;border-top:1px solid #1B2A4A">
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">A hospital dispensing system, and not the community counter.</li>
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">The official discharge form. The real form may still name its boxes differently.</li>
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Regulated clinical decision support. It does not diagnose, prescribe, dispense, or treat.</li>
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">A live ScriptCheck, AMH, MINFOS, or hospital-record integration.</li>
+<li style="padding:16px 0;border-bottom:1px solid #D4CBB8;font:400 15.5px/1.6 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Clinical advice. The synthetic exercise is not for clinical use.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<footer style="padding:clamp(44px,5vw,52px) clamp(24px,5.6vw,72px) clamp(52px,5.6vw,60px)">
+<div style="max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:flex-end;gap:28px 64px">
+<div style="flex:1 1 calc((760px - 100%) * 999);min-width:0;display:flex;align-items:center;gap:16px">
+<div aria-hidden="true" style="display:grid;grid-template-columns:20px 20px;width:40px;height:40px;border:1px solid #1B2A4A;font:500 11px/20px Spectral,Georgia,serif;text-align:center;color:#1B2A4A;flex:none"><span style="border-right:1px solid #1B2A4A;border-bottom:1px solid #1B2A4A">L</span><span style="border-bottom:1px solid #1B2A4A;color:#0D6B6B">Z</span><span style="border-right:1px solid #1B2A4A">R</span><span>C</span></div>
+<div style="min-width:0">
+<p style="font:500 18px/1.25 Spectral,Georgia,serif;margin-bottom:6px;text-wrap:balance">Luu Zaibatsu Research Collaborative Pty Ltd</p>
+<p style="font:400 12px/1.55 Archivo,system-ui,sans-serif;color:#5C6578">ACN 702 511 037 · ABN 78 702 511 037 · Adelaide</p>
+</div>
+</div>
+<div style="flex:1 1 calc((760px - 100%) * 999);min-width:0;display:flex;flex-direction:column;gap:12px">
+<p style="font:400 13px/1.6 Archivo,system-ui,sans-serif;color:#5C6578;text-wrap:pretty">Principal investigator: Kien Luu, PhD, PharmD. Hospital and community pharmacist.</p>
+<nav style="display:flex;flex-wrap:wrap;gap:10px 24px">
+<a href="https://kienluu78.github.io/keygraph/" style="font:500 13px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.02em;color:#0D6B6B;text-decoration:none;text-underline-offset:3px">KeyGraph<span aria-hidden="true" style="display:inline-block;margin-left:6px">↗</span></a>
+<a href="https://kienluu78.github.io/keystone/" style="font:500 13px/1.4 Archivo,system-ui,sans-serif;letter-spacing:.02em;color:#0D6B6B;text-decoration:none;text-underline-offset:3px">Keystone<span aria-hidden="true" style="display:inline-block;margin-left:6px">↗</span></a>
+</nav>
+</div>
+</div>
+</footer>
+</div>
+
+</body>
+</html>
